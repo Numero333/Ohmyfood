@@ -1,0 +1,120 @@
+h1 {
+  font-size: clamp(9px, 2.5vw, 18px);
+}
+
+h2 {
+  font-size: clamp(9px, 2vw, 16px);
+}
+
+h3 {
+  font-size: clamp(9px, 2vw, 16px);
+}
+
+span {
+  font-size: clamp(9px, 2vw, 16px);
+}
+
+header img {
+  width: 20vw;
+  padding: 2% 0 1% 0;
+}
+
+.form {
+  padding: 0 0 3% 20%;
+}
+.form__bg i {
+  font-size: 4vw;
+  padding-top: 2.5%;
+}
+.form__plc::-moz-placeholder {
+  font-size: 2.8vw;
+}
+.form__plc:-ms-input-placeholder {
+  font-size: 2.8vw;
+}
+.form__plc::placeholder {
+  font-size: 2.8vw;
+}
+
+.layout {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  max-width: 1440px;
+  gap: 10%;
+}
+
+.acc {
+  width: 45%;
+  justify-content: space-between;
+  border-radius: 25%;
+  margin-top: 2vw;
+  margin-left: 2vw;
+  max-width: 600px;
+}
+.acc h2 {
+  padding-bottom: 8%;
+  padding-top: 0;
+}
+.acc__title {
+  padding-bottom: 1%;
+}
+.acc__btn {
+  font-size: clamp(9px, 2vw, 28px);
+}
+.acc__btn__padding-bottom {
+  padding-bottom: 1%;
+}
+
+.concept {
+  width: 50%;
+  max-width: 600px;
+}
+.concept i {
+  padding-right: 1vw;
+}
+.concept h1 {
+  padding: 0 0 0 5vw;
+}
+.concept__step {
+  border-radius: 2vw;
+  margin: 1.5vh 8% 1.5vh 8%;
+  padding: 40px 0px;
+  max-width: 600px;
+}
+.concept__step__text {
+  padding: 4vw;
+}
+.concept__step__circle {
+  width: clamp(18px, 4vw, 45px);
+  height: clamp(18px, 4vw, 45px);
+  line-height: clamp(18px, 4vw, 45px);
+}
+
+.card {
+  max-width: 650px;
+  max-height: 320px;
+}
+.card__img {
+  height: 15vw;
+  width: 100%;
+  max-width: 650px;
+  max-height: 215px;
+}
+.card__tag {
+  margin-top: 2vw;
+  margin-left: 3vw;
+  height: 3.2vw;
+  width: 12vw;
+  font-size: 2.5vw;
+  line-height: 3vw;
+}
+
+.store {
+  max-width: 1440px;
+}
+
+.store__layout {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}/*# sourceMappingURL=style-desktop.css.map */

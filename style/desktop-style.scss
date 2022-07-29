@@ -1,0 +1,84 @@
+.store__layout {
+    display: grid;
+    grid-template-columns: repeat(2,2fr) ;
+}
+
+.acc {
+    h1 {
+        padding-top: clamp(10px, 1%, 60px);
+    }
+}
+
+.concept {
+
+    h1 {
+        padding: 0 4%;
+    }
+
+    div {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    &__step {
+        margin: auto 0 0 2%;
+        padding: clamp(5px, 3%, 20px) 0;
+        border-radius: 25px;
+
+        &__text {
+            padding: clamp(5px, 0.5vw, 15px);
+            padding-right: 3vw;
+            font-size: clamp(9px, 2vw, 26px);
+
+            i {
+                padding-right: 1vw;
+                padding-left: 3vw;
+            }
+        }
+
+        &__circle {
+            display: inline-block;
+            background-color: #9356DC;
+            width: clamp(18px, 4vw, 45px);
+            height: clamp(18px, 4vw, 45px);
+            border-radius: 50%;
+            line-height: 40px;
+            color: white;
+        }
+    }
+}
+
+.card {
+
+    .material-symbols-outlined {
+        font-size: 5.5vw;
+    }
+
+    h3 {
+        padding-top: 0.5vw;
+    }
+
+    &__img {
+        height: 15vw;
+        width: 100%;
+    }
+
+    &__tag {
+        margin-top: 2vw;
+        margin-left: 3vw;
+        height: 3vw;
+        width: 10vw;
+        font-size: 2vw;
+        line-height: 3vw;
+    }
+}
+
+footer i {
+    font-size: unset;
+}
+
+footer img {
+    width: 25%;
+    padding: 3% 0;
+}
